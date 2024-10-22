@@ -1,15 +1,16 @@
 {
+    "version": 2,
     "rewrites": [
       {
-        "source": "/about",        
+        "source": "/about",
         "destination": "/public/about.html"
       },
       {
-        "source": "/team",         
+        "source": "/team",
         "destination": "/public/team.html"
       },
       {
-        "source": "/(.*)",         
+        "source": "/(.*)",
         "destination": "/server.js"
       }
     ]
