@@ -1,7 +1,15 @@
 {
     "rewrites": [
       {
-        "source": "/(.*)",
+        "source": "/about",        
+        "destination": "/public/about.html"
+      },
+      {
+        "source": "/team",         
+        "destination": "/public/team.html"
+      },
+      {
+        "source": "/(.*)",         
         "destination": "/server.js"
       }
     ]
