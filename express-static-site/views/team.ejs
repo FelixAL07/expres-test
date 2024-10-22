@@ -1,0 +1,7 @@
+<!-- views/team.ejs -->
+<h1><%= title %></h1>
+<ul>
+  <% members.forEach(function(member) { %>
+    <li><%= member.name %> - <%= member.role %></li>
+  <% }) %>
+</ul>
